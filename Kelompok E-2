@@ -21,7 +21,6 @@ int main ()
 	printf("1. setrika\n");
 	printf("2. cuci+setrika\n");
 	printf("mohon masukan pilihan anda :  ");
-	scanf("%i",&j);
-  		
+	scanf("%i",&j);	
 	return 0;
 } 
