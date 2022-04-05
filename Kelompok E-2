@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<string.h>
+ int pilih(int j , int n ,int pilihan);
+ int pilihan(int pwgi,int pillpwgi,int pilpwgi);
+int main ()
+{
+	int jumlah,pillpwgi,pwgi;
+	int n,j,k,b,c,u,y,pes;
+	int kembalian,struk;
+	int i,total;
+	int pilihan,akhir,akhir2,awal;
+	char nama [10],pesan [100];
+	awal:
+    printf("===================================\n");
+    printf("WELCOME TO SUNSHINE LAUNDRY\n");
+    printf("SELAMAT DATANG DI LAUNDRY SUNSHINE\n");
+    printf("=====================================\n");
+    printf("\n ");
+    printf("Masukan nama Anda : ");
+    printf("\npilihan :\n"); 
+	printf("1. setrika\n");
+	printf("2. cuci+setrika\n");
+	printf("mohon masukan pilihan anda :  ");
+	scanf("%i",&j);
+  		
+	return 0;
+} 
