@@ -16,7 +16,7 @@ int main ()
     printf("SELAMAT DATANG DI LAUNDRY SUNSHINE\n");
     printf("=====================================\n");
     printf("\n ");
-    printf("Masukan nama Anda : ");
+    printf("Masukan Nama Anda : ");
     Gets(nama) ;
     printf("\npilihan :\n"); 
 	printf("1. setrika\n");
