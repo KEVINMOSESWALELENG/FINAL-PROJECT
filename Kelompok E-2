@@ -9,7 +9,7 @@ int main ()
 	int kembalian,struk;
 	int i,total;
 	int pilihan,akhir,akhir2,awal;
-	char nama [10],pesan [100];
+	char nama [10];
 	awal:
     printf("===================================\n");
     printf("WELCOME TO SUNSHINE LAUNDRY\n");
@@ -17,6 +17,7 @@ int main ()
     printf("=====================================\n");
     printf("\n ");
     printf("Masukan nama Anda : ");
+    Gets(nama) ;
     printf("\npilihan :\n"); 
 	printf("1. setrika\n");
 	printf("2. cuci+setrika\n");
