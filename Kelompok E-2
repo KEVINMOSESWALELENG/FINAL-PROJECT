@@ -7,9 +7,9 @@ int main ()
 	int jumlah,pillpwgi,pwgi;
 	int n,j,k,b,c,u,y,pes;
 	int kembalian,struk;
-	int i,total;
+	int i,a,total;
 	int pilihan,akhir,akhir2,awal;
-	char nama [10],pesan [100];
+	char nama [10]
 	awal:
     printf("===================================\n");
     printf("WELCOME TO SUNSHINE LAUNDRY\n");
