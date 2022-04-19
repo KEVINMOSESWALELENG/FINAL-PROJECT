@@ -23,5 +23,31 @@ int main ()
 	printf("2. cuci+setrika\n");
 	printf("mohon masukan pilihan anda :  ");
 	scanf("%i",&j);	
+		printf("\n");
+	n = pilih(j,u,k);
+	printf("list pewangi pakaian\n");
+	printf("1. sakura sp\n");
+	printf("2. aqua fresh\n");
+	printf("3. junjung buih\n");
+	printf("4. liliy\n");
+	printf("5. ocean fresh\n");
+	printf("6. exotic fresh\n");
+	pillpwgi:
+	printf("untuk informasi tentang pewangi masukan 112\n");
+	printf("masukan merek pewangi pakaian yang akan anda gunakan :");
+	scanf("%i",&pwgi);
+	pilihan:
+	if(pwgi==112){
+		printf("\ninfo:\n");
+		printf("\t1. sakura sp\n");
+		printf("\tmemiliki aroma yang manis sangat cocok untuk kamu yang introvert\n\n");
+		printf("\t2. Aqua fresh\n\tmemiliki aroma yang yang lembut serta memberikan aroma\n\tyang menyegarkan dan fresh sehingga dapat membangkitkan semangat\n\n");
+		printf("\t3. junjung buih\n\tmemiliki aroma yang sangat alami sehingga sering dijuluki\n\tsebagai parfum woody\n\n");
+		printf("\t4. lily\n\tmemiliki aroma yang menenangkan dan juga bernuansa feminim\n\tsehingga sangat cocok untuk para wanita\n\n");
+		printf("\t5. ocean fresh\n\tmemiliki sensasi kebebasan saat anda menghirup aroma\n\tpewangi yang satu ini\n\n");
+		printf("\t6. exotic fresh\n\tmemiliki aroma yang sangat eksotik dan menyegarkan\n\n");
+		goto pillpwgi;
+	}
+	
 	return 0;
 } 
