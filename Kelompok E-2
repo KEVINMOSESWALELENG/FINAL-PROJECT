@@ -48,6 +48,57 @@ int main ()
 		printf("\t6. exotic fresh\n\tmemiliki aroma yang sangat eksotik dan menyegarkan\n\n");
 		goto pillpwgi;
 	}
-	
+	printf("masukan berat barang anda:  ");
+	scanf("%i", &i);
+	printf("\n");
+	total = i*n;
+	printf("jumlah yang harus anda bayar adalah Rp %i\n",total);
+	printf("\n");
+	jumlah :
+	printf("masukan jumlah nominal uang anda :");
+	scanf("%i",&b);
+	printf("\n");
+	c = b-total;
+	if (c<0){
+		printf("mohon maaf nominal yang anda masukan tidak cukup\n");
+		goto jumlah;
+	}
+	printf("berapa jumlah struct yang anda inginkan :");
+	scanf("%i",&y);	
+	printf("\n\n\n");
+	for(int x=1;x<=y;x++){
+	printf("=======================\n");
+	printf("   laundry kedasmiyik  \n");
+	printf("=======================\n");
+	printf("data anda :\n\n");
+	if (j=1){
+		printf("setrika\n");
+		
+	}
+	else if(j=2){
+		printf("cuci+setrika\n");
+	}
+	printf("pesanan atas nama  :\n");
+	printf("%s\n",nama);
+	printf("\nmenggunakan pewagi :\n");
+	if(pwgi==1){
+		printf("sakura sp\n\n");
+	}
+	else if(pwgi==2){
+		printf("Aqua fresh\n\n");
+	}
+	else if(pwgi==3){
+		printf("junjung buih\n\n");
+	}
+	else if(pwgi==4){
+		printf("Liliy\n\n");
+	}
+	else if(pwgi==5){
+		printf("ocean fresh\n\n");
+	}
+	else if(pwgi==6){
+		printf("exsotic fresh\t\n\n");
+	}
+	else goto pillpwgi;
 	return 0;
 } 
