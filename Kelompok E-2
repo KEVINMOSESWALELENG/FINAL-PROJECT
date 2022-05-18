@@ -101,4 +101,4 @@ int main ()
 	}
 	else goto pillpwgi;
 	return 0;
-} 
+}
