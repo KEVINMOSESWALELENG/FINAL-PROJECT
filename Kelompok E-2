@@ -9,15 +9,14 @@ int main ()
 	int kembalian,struk;
 	int i,total;
 	int pilihan,akhir,akhir2,awal;
-	char nama [10];
+	char nama [10],pesan [100];
 	awal:
-	printf("===================================\n");
-	printf("WELCOME TO SUNSHINE LAUNDRY\n");
-	printf("SELAMAT DATANG DI LAUNDRY SUNSHINE\n");
-	printf("=====================================\n");
-	printf("\n ");
-	printf("Masukan Nama Anda : ");
-	Gets(nama) ;
+    printf("===================================\n");
+    printf("selamat datang di laundry kedasmiyik\n");
+    printf("=====================================\n");
+    printf("\n ");
+    printf("masukan nama anda : ");
+    gets(nama);
 	printf("\npilihan :\n"); 
 	printf("1. setrika\n");
 	printf("2. cuci+setrika\n");
@@ -26,7 +25,7 @@ int main ()
 	printf("\n");
 	n = pilih(j,u,k);
 	printf("list pewangi pakaian\n");
-	printf("1. sakura sp\n");
+    printf("1. sakura sp\n");
 	printf("2. aqua fresh\n");
 	printf("3. junjung buih\n");
 	printf("4. liliy\n");
@@ -34,7 +33,7 @@ int main ()
 	printf("6. exotic fresh\n");
 	pillpwgi:
 	printf("untuk informasi tentang pewangi masukan 112\n");
-	printf("masukan merek pewangi pakaian yang akan anda gunakan :");
+	printf("masukan pewangi pakaian yang ingin anda gunakan :");
 	scanf("%i",&pwgi);
 	pilihan:
 	if(pwgi==112){
@@ -48,6 +47,7 @@ int main ()
 		printf("\t6. exotic fresh\n\tmemiliki aroma yang sangat eksotik dan menyegarkan\n\n");
 		goto pillpwgi;
 	}
+	
 	printf("masukan berat barang anda:  ");
 	scanf("%i", &i);
 	printf("\n");
@@ -114,10 +114,13 @@ int main ()
 	printf("===================================\n");
 	printf("\n\n");
 	
+		
+	
 }
 	//pillpwgi = pilihan(pwgi,pillpwgi,pilpwgi);
-	return 0;
 	
+		
+	return 0;
 }  
  int pilih(int j , int n , int pilihan){
 	if (j==1){
@@ -157,5 +160,8 @@ int main ()
 	printf("mohon maaf, setelah kami proses no.%i/n",pwgi);
 	printf("tidak ada di kode, mohon masukan kode sekalilagi");
 	;
-	}	
+	}
+	
+	
+	
 }
