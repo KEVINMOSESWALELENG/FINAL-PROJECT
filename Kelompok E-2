@@ -100,5 +100,62 @@ int main ()
 		printf("exsotic fresh\t\n\n");
 	}
 	else goto pillpwgi;
+	printf("\n");
+	printf("dengan berat : %i\n",i);
+	printf("\n");
+	printf("total yang harus anda bayar adalah sebesar : %i\n",total);
+	printf("\n");
+	printf("anda membayar sebesar : %i\n",b);
+	printf("\n");
+	printf("jumlah kembalian anda : %i\n",c);
+	printf("\n");
+	printf("===================================\n");
+	printf("        terima kasihh ;)           \n");
+	printf("===================================\n");
+	printf("\n\n");
+	
+}
+	//pillpwgi = pilihan(pwgi,pillpwgi,pilpwgi);
 	return 0;
+	
+}  
+ int pilih(int j , int n , int pilihan){
+	if (j==1){
+		n=7000;
+	}
+	else if(j==2){
+		n=15000;
+	}
+	else
+		printf("mohon memilih antara nomer 1 atau 2 saja, terimakasih");
+	return n;
+	}
+	
+	int pilihan(int pwgi,int pillpwgi,int pilpwgi){
+	if(pwgi==1){
+		printf("sakura sp");
+	}
+	else if(pwgi==2){
+		printf("Aqua fresh");
+	}
+	else if(pwgi==3){
+		printf("junjung buih");
+	}
+	else if(pwgi==4){
+		printf("Liliy");
+	}
+	else if(pwgi==5){
+		printf("ocean fresh");
+	}
+	else if(pwgi==6){
+		printf("exotic fresh");
+	}
+	else if(pwgi==112){
+		printf("");
+	}
+	else {
+	printf("mohon maaf, setelah kami proses no.%i/n",pwgi);
+	printf("tidak ada di kode, mohon masukan kode sekalilagi");
+	;
+	}	
 }
